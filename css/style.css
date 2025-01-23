@@ -172,7 +172,6 @@ img {
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-sectionone-title {
   font-weight: 700;
@@ -191,6 +190,7 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-sectionone-button:hover,
 .main-sectionone-button:focus {
@@ -211,7 +211,7 @@ img {
 .main-sectiontwo {
   padding: 120px 0 120px;
 }
-.icon.main-sectiontwo {
+.icon-main-sectiontwo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -230,6 +230,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .main-sectiontwo-title {
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 .main-sectiontwo-title {
