@@ -112,7 +112,6 @@ img {
 .header-adress {
   font-style: normal;
   margin-left: auto;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-adress-link {
@@ -123,6 +122,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-link:hover,
 .header-adress-link:focus {
@@ -144,7 +144,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero {
   /* background-image: linear-gradient(
