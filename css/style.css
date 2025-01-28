@@ -36,7 +36,7 @@ img {
 }
 .conteiner {
   max-width: 1158px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
 }
 .header {
@@ -194,6 +194,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .main-sectiontwo {
   padding: 120px 0 120px;
 }
@@ -256,8 +257,10 @@ img {
   margin-bottom: 72px;
 }
 .main-sectionthree-list {
+  /* padding: 0 15px; */
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 .main-sectionthree-item {
   width: calc((100% - 72px) / 4);
